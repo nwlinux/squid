@@ -1,0 +1,5 @@
+I've optimized the squid.conf and associated ACLs for use with ad-blocking. 
+
+After making changes to the ACLs or .conf files, it's best to run the following command versus restarting squid and losing your cache.
+
+squid -k reconfigure
